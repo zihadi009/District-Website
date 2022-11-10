@@ -1,0 +1,112 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 0px 100px 100px 100px;
+    font-family: 'Happy Monkey', cursive;
+}
+
+img {
+    width: 100px;
+}
+
+.hero{
+    background-image: url("images/coverphoto.avif");
+    background-size: cover;
+    width: 100wh;
+    height: 80vh;   
+    margin-bottom: 0px;
+}
+
+.heading{
+    height: 100%;
+    width: 100%;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 2px black;
+    
+}
+
+.name{
+    background: #404E7C;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.para{
+    margin-top: 0px;
+    background: #71B48D;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.back{
+    margin-top: -40px;
+    padding: 50px 0px 50px 0px;
+    background: #71B48D;
+    width: 100%;
+}
+
+.h3{
+    font-size:40px;
+    color: #323B36;
+    padding-top: 40px;
+}
+
+.3rd{
+    width: 100px;
+}
+
+.first1, .second2, .third3{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-card{
+    padding: 10px;
+    background: #A9DBDC;
+    width: 400px;
+    height: 200px;
+    border-bottom: 5px solid #6A8EA4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.profile{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h4, p{
+    color: #323B36;
+}
